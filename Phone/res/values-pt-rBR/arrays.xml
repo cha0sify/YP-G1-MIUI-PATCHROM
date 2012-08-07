@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Pela rede</item>
+        <item>Ocultar</item>
+        <item>Enviar</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Somente EVDO</item>
+        <item>CDMA sem EVDO</item>
+        <item>CDMA/EVDO automático</item>
+        <item>GSM/WCDMA automático</item>
+        <item>Apenas WCDMA</item>
+        <item>Apenas GSM</item>
+        <item>GSM/WCDMA preferido</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Francês</item>
+        <item>Espanhol</item>
+        <item>Japonês</item>
+        <item>Coreano</item>
+        <item>Chinês</item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Modo automático)</item>
+        <item>Apenas GSM</item>
+        <item>Apenas WCDMA</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Só origem</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Somente rede local</item>
+        <item>Redes afiliadas</item>
+        <item>Qualquer rede</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Só CDMA</item>
+        <item>Só EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Desativado</item>
+        <item>TTY Ativado</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Longa</item>
+    </string-array>
+</resources>

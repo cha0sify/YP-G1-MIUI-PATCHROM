@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:configChanges="keyboardHidden" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:paddingTop="16.0px" android:paddingBottom="21.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/logo" android:focusable="true" android:layout_width="wrap_content" android:layout_height="77.0px" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="22.0px" android:paddingRight="16.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="19.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/label_model_name" android:layout_width="fill_parent" android:layout_height="42.0px" android:text="@string/label_model_name" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@touchwiz:color/tw_color003" android:id="@id/model_name" android:layout_width="fill_parent" android:layout_height="55.0px" android:text="@string/model_name" android:maxLines="3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="22.0px" android:paddingRight="16.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="19.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/label_certification" android:layout_width="fill_parent" android:layout_height="42.0px" android:text="@string/label_certification" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@touchwiz:color/tw_color003" android:id="@id/certification" android:layout_width="fill_parent" android:layout_height="55.0px" android:text="@string/certification" android:maxLines="3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="22.0px" android:paddingRight="16.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="19.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/label_mutual" android:layout_width="fill_parent" android:layout_height="42.0px" android:text="@string/label_mutual" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@touchwiz:color/tw_color003" android:id="@id/label_mutual_factory" android:layout_width="fill_parent" android:layout_height="42.0px" android:text="@string/label_mutual_factory" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@touchwiz:color/tw_color003" android:id="@id/power" android:layout_width="fill_parent" android:layout_height="55.0px" android:text="@string/power" android:maxLines="3" />
+        </LinearLayout>
+        <TextView android:textSize="19.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/label_menufacture_date" android:paddingLeft="22.0px" android:paddingRight="16.0px" android:layout_width="fill_parent" android:layout_height="36.0px" android:layout_marginBottom="15.0px" android:text="@string/label_menufacture_date" android:singleLine="true" />
+        <EditText android:textSize="16.0dip" android:textColor="@touchwiz:color/tw_color002" android:id="@id/menufacture_date" android:focusable="false" android:layout_width="300.0px" android:layout_height="52.0px" android:layout_marginLeft="9.0px" android:layout_marginRight="9.0px" android:layout_marginBottom="21.0px" android:cursorVisible="false" android:editable="false" />
+        <TextView android:textSize="19.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/label_serial_number" android:paddingLeft="22.0px" android:paddingRight="16.0px" android:layout_width="fill_parent" android:layout_height="36.0px" android:layout_marginBottom="15.0px" android:text="@string/label_sn" android:singleLine="true" />
+        <EditText android:textSize="16.0dip" android:textColor="@touchwiz:color/tw_color002" android:id="@id/serial_number" android:focusable="false" android:layout_width="300.0px" android:layout_height="52.0px" android:layout_marginLeft="9.0px" android:layout_marginRight="9.0px" android:layout_marginBottom="21.0px" android:cursorVisible="false" android:editable="false" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="22.0px" android:paddingRight="16.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/device_sumary_01" android:layout_width="fill_parent" android:layout_height="40.0px" android:text="@string/device_summary_info_01" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@touchwiz:color/tw_color001" android:id="@id/device_sumary_02" android:layout_width="fill_parent" android:layout_height="60.0px" android:text="@string/device_summary_info_02" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

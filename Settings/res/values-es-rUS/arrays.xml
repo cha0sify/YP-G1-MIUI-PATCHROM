@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Continente americano</item>
+        <item>Europa</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacífico</item>
+        <item>Todo</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>MM/DD/AAAA</item>
+        <item>DD/MM/AAAA</item>
+        <item>AAAA/MM/DD</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Ninguna animación</item>
+        <item>Algunas animaciones</item>
+        <item>Todas las animaciones</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Ninguna animación de ventana mostrada</item>
+        <item>Algunas animaciones de ventanas mostradas</item>
+        <item>Todas las animaciones de ventanas mostradas</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>10 minutos</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Muy lento</item>
+        <item>Lento</item>
+        <item>Normal</item>
+        <item>Rápido</item>
+        <item>Muy rápido</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Muy baja</item>
+        <item>Baja</item>
+        <item>Normal</item>
+        <item>Alta</item>
+        <item>Muy alta</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Inglés americano</item>
+        <item>Inglés británico</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Conectando...</item>
+        <item>Autenticando...</item>
+        <item>Obteniendo dirección IP de...</item>
+        <item>Conectado</item>
+        <item>Suspendido</item>
+        <item>Desconectando…</item>
+        <item>Desconectado</item>
+        <item>Incorrecto</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Conectando a %1$s...</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s...</item>
+        <item>Conectado a %1$s</item>
+        <item>Suspendido</item>
+        <item>Desconectando de %1$s...</item>
+        <item>Desconectado</item>
+        <item>Incorrecto</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Abierto</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>CCKM EAP</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Abierto</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Baja</item>
+        <item>Bien</item>
+        <item>Buena</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Cuando la pantalla se desactiva</item>
+        <item>Nunca si está conectado</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="apn_ently_key">
+        <item>Internet + MMS</item>
+        <item>Internet</item>
+        <item>MMS</item>
+    </string-array>
+    <string-array name="apn_ently_key_includeDUN">
+        <item>Internet + MMS + DUN</item>
+        <item>Internet + MMS</item>
+        <item>Internet + DUN</item>
+        <item>Internet</item>
+        <item>MMS</item>
+        <item>DUN</item>
+    </string-array>
+    <string-array name="battery_history_type_spinner">
+        <item>Uso de CPU</item>
+        <item>Uso de la red</item>
+        <item>Uso del GPS</item>
+        <item>Uso del sensor</item>
+        <item>Uso de despertador parcial</item>
+        <item>Otros usos</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tiempo de uso</item>
+        <item>Recuento de inicios</item>
+        <item>Nombre de aplicación</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Desactivado</item>
+        <item>Alerta</item>
+        <item>Vibrar</item>
+    </string-array>
+    <string-array name="tv_system_entries">
+        <item>PAL</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="tv_out_entries">
+        <item>Activado</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Memoria interna</item>
+        <item>Tarjeta SD extraíble</item>
+        <item>Predeterminado</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Siempre</item>
+        <item>Nunca</item>
+        <item>Sólo en perfil Silencioso</item>
+        <item>Sólo cuando no está en perfil Silencioso</item>
+    </string-array>
+</resources>
