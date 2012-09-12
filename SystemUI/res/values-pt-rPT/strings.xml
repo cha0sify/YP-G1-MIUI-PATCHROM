@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Barra de estado</string>
+    <string name="status_bar_clear_all_button">Limpar</string>
+    <string name="status_bar_no_notifications_title">Sem notificações</string>
+    <string name="status_bar_ongoing_events_title">Em curso</string>
+    <string name="status_bar_latest_events_title">Notificações</string>
+    <string name="battery_low_title">Ligue o carregador</string>
+    <string name="battery_low_subtitle">A bateria está a ficar fraca:</string>
+    <string name="battery_low_percent_format">Restam %d%% ou menos.</string>
+    <string name="battery_low_why">Utilização da bateria</string>
+    <string name="title_usb_accessory">Acessório USB</string>
+    <string name="label_view">Ver</string>
+    <string name="always_use_accessory">Utilizar por predefinição para este acessório USB</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_sound_text">Som</string>
+    <string name="quickpanel_sound_vibration_text">"Sound
+Vibration"</string>
+    <string name="quickpanel_silent_text">Silencioso</string>
+    <string name="quickpanel_vibration_text">Vibração</string>
+    <string name="quickpanel_rotation_text">"Rotação
+autom."</string>
+    <string name="quickpanel_error_text">Error</string>
+    <string name="lowbattery">Bateria fraca. Recarregue o dispositivo dentro em breve para o continuar a utilizar</string>
+    <string name="critical_lowbattery">Bateria criticamente fraca. Ligue o dispositivo à corrente agora para o continuar a utilizar</string>
+    <string name="dischargetitle">Informações</string>
+    <string name="dischargebattery">Carregamento em pausa. Temperatura da bateria demasiado alta ou baixa</string>
+    <string name="fullchargetitle">Informações</string>
+    <string name="fullchargebattery">Bat. compl. carreg. Desligue carreg.</string>
+</resources>

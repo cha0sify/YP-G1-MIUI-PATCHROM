@@ -8,25 +8,20 @@ local-zip-file     := XXKPQ.zip
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
 local-out-zip-file := MIUI_YPG1.zip
 
-# All apps from original ZIP, but has smali files chanded
-local-modified-apps := LogsProvider Phone MediaProvider Settings
+# All apps from zip and has smali files chanded(need to be builded by apktool)
+local-modified-apps := MediaProvider Phone Settings Browser SystemUI
 
-# All apks from MIUI execept MIUISystemUI and framework-miui-res.apk
-local-miui-apps     := Contacts ContactsProvider Mms TelephonyProvider ThemeManager Launcher2 \
-     DownloadProvider TelocationProvider Notes Music Torch DownloadProviderUi Updater
+# All apks from MIUI execept MIUISystemUI and framework-res.apk
+local-miui-apps     := Contacts ContactsProvider ThemeManager \
+	DownloadProvider Notes Music Updater SideKick
+
+local-miui-modified-apps := Launcher2 DownloadProviderUi
 
 # All apps need to be removed from original ZIP file
-local-remove-apps   := AlipayGphone AmsComposer AndroidQQ_Samsung_Seine BuddiesNow cooldict glyder2 \
-    ImgoTV iReader kaixin001 Memo MiniDiary MinimalHome mreader PressReader ReadersHub Renren   \
-    Sinamicroblog SinaNews SinaStock SinaWeather SocialHub Tencentmicroblog  \
-    TomEbook Tonghuashun TouchWiz30Launcher Youku_Samsung_seine MusicPlayer \
-    MediaHub PhotoRetouching VideoEditor thinkdroid QYVideoClient \
-    Days DigitalClock Dlna DualClock Email EmailWidget FTC FTM FTS Kobo \
-    Microbesgl Navigator PostIt Protips QuickSearchBox SamsungApps SamsungAppsUNA3 \
-    SamsungIM SamsungWidget_ProgramMonitor SecretWallpaper1 SecretWallpaper2 \
-    SevenEngine SnsAccountKx SnsAccountRr SnsDisclaimer SnsImageCache SnsProvider \
-    Tasks TasksProvider Term TrimApp TwCalendarAppWidget Zinio \
-    samsungappswidget syncmldm viva_tts
+local-remove-apps   := Email Memo MiniDiary Protips PhoneErrService SamsungWidget_ProgramMonitor \
+	SnsProvider TwLauncher45 VoiceSearch MusicPlayer SoundPlayer Divx wipereceiver \
+	ApplicationsProvider BadgeProvider BluetoothPbap InputEventApp MmsProvisioning Personalization \
+	Phone_Util PopupuiReceiver Preconfig serviceModeApp SimDetachNotifier wssyncmlnps
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:
@@ -47,6 +42,10 @@ local-zip-misc:
 	cp misc/apk/* $(ZIP_DIR)/system/app/
 	@echo Replace build.prop
 	cp misc/build.prop $(ZIP_DIR)/system/build.prop
+	@echo Add miui bootanimation
+	cp misc/bootanimation.zip $(ZIP_DIR)/system/media/bootanimation.zip
+	rm $(ZIP_DIR)/system/media/bootsamsung.qmg
+	rm $(ZIP_DIR)/system/media/bootsamsungloop.qmg
 
 local-test:
 	echo "an example action"

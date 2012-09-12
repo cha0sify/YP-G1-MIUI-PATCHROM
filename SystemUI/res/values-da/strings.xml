@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Statuslinje</string>
+    <string name="status_bar_clear_all_button">Slet</string>
+    <string name="status_bar_no_notifications_title">Ingen meddelelser</string>
+    <string name="status_bar_ongoing_events_title">Igang</string>
+    <string name="status_bar_latest_events_title">Beskeder</string>
+    <string name="battery_low_title">Forbind oplader</string>
+    <string name="battery_low_subtitle">Batteriet er ved at være fladt:</string>
+    <string name="battery_low_percent_format">%d%% eller mindre tilbage.</string>
+    <string name="battery_low_why">Batteriforbrug</string>
+    <string name="title_usb_accessory">USB-ekstraudstyr</string>
+    <string name="label_view">Vis</string>
+    <string name="always_use_accessory">Brug som standard til dette USB-tilbehør</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_sound_text">Lyd</string>
+    <string name="quickpanel_sound_vibration_text">"Lyd
+Vibrator"</string>
+    <string name="quickpanel_silent_text">Lydløs</string>
+    <string name="quickpanel_vibration_text">Vibration</string>
+    <string name="quickpanel_rotation_text">"Auto
+rotation"</string>
+    <string name="quickpanel_error_text">Error</string>
+    <string name="lowbattery">Batteriniveau lavt. Genoplad enheden snart for at blive ved at bruge den</string>
+    <string name="critical_lowbattery">Batteriniveau kritisk lavt. Sæt enheden i et stik for at blive med at bruge den</string>
+    <string name="dischargetitle">Oplysninger</string>
+    <string name="dischargebattery">Pause i opladning. Batteritemperaturen er for høj eller for lav</string>
+    <string name="fullchargetitle">Oplysninger</string>
+    <string name="fullchargebattery">Batteriet er helt opladet. Frakobl oplader</string>
+</resources>

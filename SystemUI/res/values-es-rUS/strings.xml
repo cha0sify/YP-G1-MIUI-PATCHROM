@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Barra de estado</string>
+    <string name="status_bar_clear_all_button">Eliminar</string>
+    <string name="status_bar_no_notifications_title">Sin notificaciones</string>
+    <string name="status_bar_ongoing_events_title">En curso</string>
+    <string name="status_bar_latest_events_title">Notificaciones</string>
+    <string name="battery_low_title">Conecte el cargador</string>
+    <string name="battery_low_subtitle">Batería baja:</string>
+    <string name="battery_low_percent_format">%d%% o inferior restante</string>
+    <string name="battery_low_why">Uso de batería</string>
+    <string name="usb_accessory_permission_prompt">¿Permite que una aplicación %1$s para acceder al accesorio USB?</string>
+    <string name="usb_device_confirm_prompt">¿Abrir %1$s cuando este dispositivo USB esté conectado?</string>
+    <string name="usb_accessory_confirm_prompt">¿Abrir %1$s cuando este accesorio USB esté conectado?</string>
+    <string name="usb_accessory_uri_prompt">Las aplicaciones instaladas no funcionan con este accesorio USB. Obtener más información acerca de este accesorio en %1$s</string>
+    <string name="title_usb_accessory">Accesorio USB</string>
+    <string name="label_view">Ver</string>
+    <string name="always_use_accessory">Usar de forma predeterminada para esta accesorio USB</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_sound_text">Sonido</string>
+    <string name="quickpanel_sound_vibration_text">"Sonido
+Vibración"</string>
+    <string name="quickpanel_silent_text">Silencioso</string>
+    <string name="quickpanel_vibration_text">Vibración</string>
+    <string name="quickpanel_rotation_text">"Rotación
+auto."</string>
+    <string name="quickpanel_error_text">Error</string>
+    <string name="lowbattery">Batería baja. Cargue la batería para seguir usando el dispositivo</string>
+    <string name="critical_lowbattery">Batería muy baja. Carga el dispositivo ahora para seguir usándolo</string>
+    <string name="dischargetitle">Info</string>
+    <string name="dischargebattery">Carga en pausa. Temperatura de batería demasiado alta o demasiado baja</string>
+    <string name="fullchargetitle">Info</string>
+    <string name="fullchargebattery">Batería totalmente cargada. Desconecte el cargador</string>
+</resources>

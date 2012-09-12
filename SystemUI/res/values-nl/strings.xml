@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Statusbalk</string>
+    <string name="status_bar_clear_all_button">Wissen</string>
+    <string name="status_bar_no_notifications_title">Geen meldingen</string>
+    <string name="status_bar_ongoing_events_title">Doorlopend</string>
+    <string name="status_bar_latest_events_title">Meldingen</string>
+    <string name="battery_low_title">Sluit de oplader aan</string>
+    <string name="battery_low_subtitle">De accu raakt op:</string>
+    <string name="battery_low_percent_format">%d%% of minder resterend.</string>
+    <string name="battery_low_why">Batterijgebruik</string>
+    <string name="title_usb_accessory">USB-accessoire</string>
+    <string name="label_view">Weergeven</string>
+    <string name="always_use_accessory">Standaard gebruiken voor dit USB-accessoire</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">GPS</string>
+    <string name="quickpanel_sound_text">Geluid</string>
+    <string name="quickpanel_sound_vibration_text">"Melodie
+Trillen"</string>
+    <string name="quickpanel_silent_text">Stil</string>
+    <string name="quickpanel_vibration_text">Trillen</string>
+    <string name="quickpanel_rotation_text">"Autom.
+draaien"</string>
+    <string name="quickpanel_error_text">Error</string>
+    <string name="lowbattery">Batterij bijna leeg. Laad het apparaat binnenkort op om het te blijven gebruiken</string>
+    <string name="critical_lowbattery">Batterij bijna leeg. Sluit apparaat aan op elektriciteitsnet om het te blijven gebruiken</string>
+    <string name="dischargetitle">Info</string>
+    <string name="dischargebattery">Opladen onderbroken. Batterijtemperatuur te hoog of te laag</string>
+    <string name="fullchargetitle">Info</string>
+    <string name="fullchargebattery">Batterij helemaal opgeladen. Verwijder de oplader.</string>
+</resources>
